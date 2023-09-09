@@ -1,0 +1,104 @@
+.taswira .ktiba  {
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    color: white;
+    width:50px;
+    font-size:35px;
+}
+.taswira .AR{
+    
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left:150px;
+    right: 0;
+    top: 50%;
+    color: white;
+    width: 100px;
+    font-size: 30PX;
+
+}
+
+
+
+
+
+
+
+.architect{
+   
+    margin-top: 50px;
+    width: 1500px;
+    height:20x;
+    box-shadow: 4px 8px 16px;
+}
+.container{
+display: inline-block;
+position: relative;
+
+}
+.container .text {
+    background:black;
+    z-index:10;
+    position: absolute;
+    text-align:left;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0%;
+    right: 500px;
+    top: 0px;
+    color: white;
+    width: 25%;
+}
+.dar{
+    height: 300px;
+    width: 300px;
+    display: inline;
+
+}
+.abed{
+    height: 150px;
+    width: 150px;
+    display: inline;
+    
+}
+figure{
+     display: inline-block; 
+}
+.texte{
+position:relative;
+width:300px;
+z-index:10;
+}
+.contact{
+background-color: grey;
+}
+
+.name{
+    color: gray;
+    background-color:white;
+    border:2px solid gray;
+    padding:10px 20px;
+}
+
+.send{
+    color: white;
+    background-color: black;
+    border:2px solid black;
+    padding:2px 5px 2px 5px ;
+    width:150px;
+
+}
+.map{
+    width:1500px;
+    height: 700px;
+}
