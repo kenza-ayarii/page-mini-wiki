@@ -1,104 +1,171 @@
-.taswira .ktiba  {
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 1;
-    position: absolute;
-    text-align: center;
-    font-family: Georgia;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 50%;
-    color: white;
-    width:50px;
-    font-size:35px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.taswira .AR{
-    
-    z-index: 1;
-    position: absolute;
-    text-align: center;
-    font-family: Georgia;
-    margin: 0 auto;
-    left:150px;
-    right: 0;
-    top: 50%;
-    color: white;
-    width: 100px;
-    font-size: 30PX;
-
+@font-face {
+  font-family: "Segoe";
+  src: url(../fonts/segoeui.TTF);
 }
 
-
-
-
-
-
-
-.architect{
-   
-    margin-top: 50px;
-    width: 1500px;
-    height:20x;
-    box-shadow: 4px 8px 16px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-shadow: 0px 0px 10px 0px black;
+  font-family: "Segoe";
+  font-size: 20px;
+  margin:0px 0px 3px 0px;
 }
-.container{
-display: inline-block;
-position: relative;
-
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
 }
-.container .text {
-    background:black;
-    z-index:10;
-    position: absolute;
-    text-align:left;
-    font-family: Georgia;
-    margin: 0 auto;
-    left: 0%;
-    right: 500px;
-    top: 0px;
-    color: white;
-    width: 25%;
-}
-.dar{
-    height: 300px;
-    width: 300px;
-    display: inline;
-
-}
-.abed{
-    height: 150px;
-    width: 150px;
-    display: inline;
-    
-}
-figure{
-     display: inline-block; 
-}
-.texte{
-position:relative;
-width:300px;
-z-index:10;
-}
-.contact{
-background-color: grey;
+/*.navbar {
+  padding: 20px 40px;
+  box-shadow: 4px 8px 16px gray;
+  font-family: "Segoe";
+  font-size: 20px;
 }
 
-.name{
-    color: gray;
-    background-color:white;
-    border:2px solid gray;
-    padding:10px 20px;
+.navbar ul,
+.navbar ul li {
+  display: inline-block;
+  margin: 0px 10px;
 }
 
-.send{
-    color: white;
-    background-color: black;
-    border:2px solid black;
-    padding:2px 5px 2px 5px ;
-    width:150px;
+.navbar ul {
+  list-style: none;
+  float: right;
+}
+*/
 
+.landing {
+  height: 95vh;
+  background: url(../img/architect.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landing div {
+  font-size: 50px;
+  font-family: "Segoe";
+  color: white;
+}
+
+.landing .br {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section {
+  margin: 20px;
+}
+
+.section hr {
+  margin: 30px 0px;
+}
+
+.houses{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.house {
+  width:24%;
+  position: relative;
+}
+.house img {
+  width:100%;
+}
+
+.hh1{
+  position:absolute;
+  padding: 20px 20px;
+  height:10px;
+  background-color: black;
+  color: white;
+  font-size:10px;
+  top:0;
+
+}
+
+.persons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.person{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content:space-around;
+}
+.person img{
+  width: 40%;
+}
+h3{
+  color: gray;
+  background-color: white;
+  padding: 10px 10px;
+}
+h4{
+  background-color: grey;
+  padding: 5px 100px;
+}
+#email{
+ width: 100%;
+}
+fieldset{
+  padding:  20px 20px;
+  margin: 20px 20px;
+  
+  
+}
+.formulaire{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+input{
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+h1{
+  background-color: white;
+  margin:10px 10px;
+}
+button{
+  margin: 10px 30px;
+  padding: 10px 10px;
+  background-color:black;
+  color:white;
 }
 .map{
-    width:1500px;
-    height: 700px;
+width:70%;
+margin: auto;
+display: block;
+
+}
+.powered{
+  color: white;
+  background-color: black;
+  width: 100%;
+  height:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 0px 0px;
 }
