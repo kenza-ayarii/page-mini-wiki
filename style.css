@@ -1,171 +1,124 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-@font-face {
-  font-family: "Segoe";
-  src: url(../fonts/segoeui.TTF);
+*{
+    padding:10px;
+
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 40px;
-  box-shadow: 0px 0px 10px 0px black;
-  font-family: "Segoe";
-  font-size: 20px;
-  margin:0px 0px 3px 0px;
+body{
+    background-color: rgba(255, 68, 0, 0.705);
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    flex-direction: row;
+    
+    
+}
+.navbar .pixel{
+    padding: 50px 50px;
+    margin: 0px 20px;
+
+
+}
+.carte{
+    box-sizing: content-box;
+    box-shadow:14px ;
+    border-radius: 10%;
+    padding:10px 10px;
+    margin: 10px 10px 10px 10px;
+    
 }
 .navbar ul {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-}
-/*.navbar {
-  padding: 20px 40px;
-  box-shadow: 4px 8px 16px gray;
-  font-family: "Segoe";
-  font-size: 20px;
-}
+    display: flex;
+    list-style: none;
+    background-color: white;
+    padding: 10px 10px;
+    
 
-.navbar ul,
-.navbar ul li {
-  display: inline-block;
-  margin: 0px 10px;
-}
 
-.navbar ul {
-  list-style: none;
-  float: right;
-}
-*/
 
-.landing {
-  height: 95vh;
-  background: url(../img/architect.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.landing div {
-  font-size: 50px;
-  font-family: "Segoe";
-  color: white;
-}
-
-.landing .br {
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.8);
-  background: rgba(0, 0, 0, 0.8);
-  padding: 20px 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.section {
-  margin: 20px;
-}
-
-.section hr {
-  margin: 30px 0px;
-}
-
-.houses{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.house {
-  width:24%;
-  position: relative;
-}
-.house img {
-  width:100%;
-}
-
-.hh1{
-  position:absolute;
-  padding: 20px 20px;
-  height:10px;
-  background-color: black;
-  color: white;
-  font-size:10px;
-  top:0;
-
-}
-
-.persons{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  
-}
-.person{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  align-content:space-around;
-}
-.person img{
-  width: 40%;
-}
-h3{
-  color: gray;
-  background-color: white;
-  padding: 10px 10px;
-}
-h4{
-  background-color: grey;
-  padding: 5px 100px;
-}
-#email{
- width: 100%;
-}
-fieldset{
-  padding:  20px 20px;
-  margin: 20px 20px;
-  
-  
-}
-.formulaire{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  justify-content: space-around;
-}
-input{
-  padding: 10px 10px;
-  margin: 10px 10px;
-}
-h1{
-  background-color: white;
-  margin:10px 10px;
 }
 button{
-  margin: 10px 30px;
-  padding: 10px 10px;
-  background-color:black;
-  color:white;
+    background-color: rgb(255, 106, 0);
+    border-radius: 10%;
 }
-.map{
-width:70%;
-margin: auto;
-display: block;
+.page1{
+    display: flex;
+    background-color: white;
+}
+.page1 img{
+    width: 1500px;
+    height:40%;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5%;
+}
+h4{
+    color: rgb(142, 140, 140);
+}
+.limin ul{
+    display: inline-block;
+}
+.limin p{
+    width: 40%;
+}
+.limin .icon img{
+    
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    
+}
+.icon{
+    display: flex;
+    
+}
+
+
+.gridmod{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows :repeat(2,800px);
+    grid-template-areas:
+    "a c "
+    "b d " ;   
+    background-color: white;
 
 }
-.powered{
-  color: white;
-  background-color: black;
-  width: 100%;
-  height:50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0px 0px 0px;
+.grid-item1 img{
+width: 600px;
+height: 500px;
+}
+.grid-item3 img{
+width: 600px;
+height: 500px ;
+}
+
+
+.grid-item1{
+    grid-area: a;
+}
+.grid-item2{
+    grid-area: b;
+}
+.grid-item3{
+    grid-area: c;
+}
+.grid-item4{
+    grid-area: d;
+}
+
+.gridmod ul{
+    display: inline-block;
+}
+.gridmod img{
+    border-radius: 5%;
+}
+
+.gridmod{
+    height: 1000px;
+
+    
 }
